@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/App';
+import BooksApp from './containers/App';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <BooksApp />
   </BrowserRouter>,
   document.getElementById('root')
 );
